@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import headerImg from "../../../assets/img/header-img.svg";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -47,7 +46,7 @@ export const Banner = () => {
   }
 
   return (
-    <section className="pt-[260px] pb-[100px] bg-[url('../assets/img/banner-bg.png')] bg-top bg-cover bg-no-repeat" id="home">
+    <section className="pt-[260px] pb-[100px] bg-[url('/img/banner-bg.png')] bg-top bg-cover bg-no-repeat" id="home">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap items-center">
           <div className="w-full md:w-1/2 xl:w-7/12">
@@ -75,7 +74,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img" className="animate-updown" />
+                  <img src="/img/header-img.svg" alt="Header Img" className="animate-updown" />
                 </div>}
             </TrackVisibility>
           </div>

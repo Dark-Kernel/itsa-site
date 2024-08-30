@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { HashLink } from 'react-router-hash-link';
 import { BrowserRouter as Router } from "react-router-dom";
-import logo from '../../../assets/img/logo.svg';
-import navIcon1 from '../../../assets/img/nav-icon1.svg';
-import navIcon2 from '../../../assets/img/nav-icon2.svg';
-import navIcon3 from '../../../assets/img/nav-icon3.svg';
+// import logo from '../../../assets/img/logo.svg';
+// import navIcon1 from '../../../assets/img/nav-icon1.svg';
+// import navIcon2 from '../../../assets/img/nav-icon2.svg';
+// import navIcon3 from '../../../assets/img/nav-icon3.svg';
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
@@ -34,7 +34,7 @@ export const NavBar = () => {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center">
             <a href="/" className="w-[9%]">
-              <img src={logo} alt="Logo" />
+              <img src="/img/logo.svg" alt="Logo" />
             </a>
             <div className="hidden md:flex items-center">
               <a href="#home" 
@@ -50,15 +50,15 @@ export const NavBar = () => {
             <div className="flex items-center">
               <div className="flex ml-3.5">
                 <a href="#" className="w-[42px] h-[42px] bg-white bg-opacity-10 rounded-full flex items-center justify-center border border-white border-opacity-50 mr-1.5 relative group">
-                  <img src={navIcon1} alt="" className="w-[40%] z-10 transition-all duration-300 ease-in-out group-hover:filter group-hover:brightness-0 group-hover:saturate-100 group-hover:invert-0 group-hover:sepia-[7%] group-hover:saturate-[98%] group-hover:hue-rotate-[346deg] group-hover:brightness-[95%] group-hover:contrast-[86%]" />
+                  <img src="/img/nav-icon1.svg" alt="" className="w-[40%] z-10 transition-all duration-300 ease-in-out group-hover:filter group-hover:brightness-0 group-hover:saturate-100 group-hover:invert-0 group-hover:sepia-[7%] group-hover:saturate-[98%] group-hover:hue-rotate-[346deg] group-hover:brightness-[95%] group-hover:contrast-[86%]" />
                   <div className="absolute inset-0 bg-white rounded-full transform scale-0 transition-transform duration-300 ease-in-out group-hover:scale-100"></div>
                 </a>
                 <a href="#" className="w-[42px] h-[42px] bg-white bg-opacity-10 rounded-full flex items-center justify-center border border-white border-opacity-50 mr-1.5 relative group">
-                  <img src={navIcon2} alt="" className="w-[40%] z-10 transition-all duration-300 ease-in-out group-hover:filter group-hover:brightness-0 group-hover:saturate-100 group-hover:invert-0 group-hover:sepia-[7%] group-hover:saturate-[98%] group-hover:hue-rotate-[346deg] group-hover:brightness-[95%] group-hover:contrast-[86%]" />
+                  <img src="/img/nav-icon2.svg" alt="" className="w-[40%] z-10 transition-all duration-300 ease-in-out group-hover:filter group-hover:brightness-0 group-hover:saturate-100 group-hover:invert-0 group-hover:sepia-[7%] group-hover:saturate-[98%] group-hover:hue-rotate-[346deg] group-hover:brightness-[95%] group-hover:contrast-[86%]" />
                   <div className="absolute inset-0 bg-white rounded-full transform scale-0 transition-transform duration-300 ease-in-out group-hover:scale-100"></div>
                 </a>
                 <a href="#" className="w-[42px] h-[42px] bg-white bg-opacity-10 rounded-full flex items-center justify-center border border-white border-opacity-50 mr-1.5 relative group">
-                  <img src={navIcon3} alt="" className="w-[40%] z-10 transition-all duration-300 ease-in-out group-hover:filter group-hover:brightness-0 group-hover:saturate-100 group-hover:invert-0 group-hover:sepia-[7%] group-hover:saturate-[98%] group-hover:hue-rotate-[346deg] group-hover:brightness-[95%] group-hover:contrast-[86%]" />
+                  <img src="/img/nav-icon3.svg" alt="" className="w-[40%] z-10 transition-all duration-300 ease-in-out group-hover:filter group-hover:brightness-0 group-hover:saturate-100 group-hover:invert-0 group-hover:sepia-[7%] group-hover:saturate-[98%] group-hover:hue-rotate-[346deg] group-hover:brightness-[95%] group-hover:contrast-[86%]" />
                   <div className="absolute inset-0 bg-white rounded-full transform scale-0 transition-transform duration-300 ease-in-out group-hover:scale-100"></div>
                 </a>
               </div>
