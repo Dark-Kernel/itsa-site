@@ -41,19 +41,19 @@ const EventsPage = () => {
       id: 1,
       title: "Event 1",
       date: "03 March 2024",
-      image: "/images/abc.jpg",
+      image: "/posters/abc.jpg",
     },
     {
       id: 2,
       title: "Event 2",
       date: "15 April 2024",
-      image: "/images/abc.jpg",
+      image: "/posters/abc.jpg",
     },
     {
       id: 3,
       title: "Event 3",
       date: "22 May 2024",
-      image: "/images/abc.jpg",
+      image: "/posters/abc.jpg",
     },
   ];
 
