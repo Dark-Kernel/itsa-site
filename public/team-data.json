@@ -10,14 +10,14 @@
     "title": "President & Vice President",
     "members": [
       { "name": "Mitul Chauhan", "post": "President", "imageUrl": "/team/PRESIDENT VP GS/Mithul[P].png" },
-      { "name": "Ramdas", "post": "Vice President", "imageUrl": "/team/PRESIDENT VP GS/Ramdas[VP].png" }
+      { "name": "Ramdas Chaugale", "post": "Vice President", "imageUrl": "/team/PRESIDENT VP GS/Ramdas[VP].png" }
     ]
   },
   {
     "title": "General Secretary & Treasurer",
     "members": [
-      { "name": "Swaranjith", "post": "General Secretary", "imageUrl": "/team/PRESIDENT VP GS/Swaranjith[GS].png" },
-      { "name": "Megha", "post": "Treasurer", "imageUrl": "/team/TREASURER/Megha[T].png" }
+      { "name": "Swaranjith Gudelli", "post": "General Secretary", "imageUrl": "/team/PRESIDENT VP GS/Swaranjith[GS].png" },
+      { "name": "Megha Mahajan", "post": "Treasurer", "imageUrl": "/team/TREASURER/Megha[T].png" }
     ]
   },
   {
@@ -26,19 +26,19 @@
     "members": [
       { "name": "Pratik Bhuvad", "post": "Documentation Member", "imageUrl": "/team/DOCUMENTATION/Pratik[DM].png" },
       { "name": "Girish Patil", "post": "Documentation Member", "imageUrl": "/team/DOCUMENTATION/Girish[DM].png" },
-      { "name": "Kunal", "post": "Documentation Member", "imageUrl": "/team/DOCUMENTATION/Kunal[DM].png" },
-      { "name": "Namdev", "post": "Documentation Member", "imageUrl": "/team/DOCUMENTATION/Namdev[DM].png" }
+      { "name": "Kunal Gadekar", "post": "Documentation Member", "imageUrl": "/team/DOCUMENTATION/Kunal[DM].png" },
+      { "name": "Namdev Shinde", "post": "Documentation Member", "imageUrl": "/team/DOCUMENTATION/Namdev[DM].png" }
     ]
   },
   {
     "title": "INFRA & SECURITY Team",
     "leader": { "name": "Sahil Deshmukh", "post": "Infra & Security Head", "imageUrl": "/team/INFRA & SECURITY/Sahil[IH].png" },
     "members": [
-      { "name": "Avanish", "post": "Infra & Security Member", "imageUrl": "/team/INFRA & SECURITY/Avanish[IM].png" },
-      { "name": "Atharva", "post": "Infra & Security Member", "imageUrl": "/team/INFRA & SECURITY/Atharva[IM].png" },
-      { "name": "Anurag", "post": "Infra & Security Member", "imageUrl": "/team/INFRA & SECURITY/Anurag[IM].png" },
-      { "name": "Om", "post": "Infra & Security Member", "imageUrl": "/team/INFRA & SECURITY/Om[IM].png" },
-      { "name": "Vinay", "post": "Infra & Security Member", "imageUrl": "/team/INFRA & SECURITY/Vinay[IM].png" }
+      { "name": "Avanish Kamble", "post": "Infra & Security Member", "imageUrl": "/team/INFRA & SECURITY/Avanish[IM].png" },
+      { "name": "Atharva Khule", "post": "Infra & Security Member", "imageUrl": "/team/INFRA & SECURITY/Atharva[IM].png" },
+      { "name": "Anurag Dharmadhikari", "post": "Infra & Security Member", "imageUrl": "/team/INFRA & SECURITY/Anurag[IM].png" },
+      { "name": "Om Kandalgaonkar", "post": "Infra & Security Member", "imageUrl": "/team/INFRA & SECURITY/Om[IM].png" },
+      { "name": "Vinay Panvelkar", "post": "Infra & Security Member", "imageUrl": "/team/INFRA & SECURITY/Vinay[IM].png" }
     ]
   },
   {
@@ -47,8 +47,8 @@
     "members": [
       { "name": "Varad Khandare", "post": "Technical Member", "imageUrl": "/team/TECHNICAL/Varad[TM].png" },
       { "name": "Yash Dhavde", "post": "Technical Member", "imageUrl": "https://imgs.search.brave.com/A_8hAUyXR0HIWQyWgwN0K43kDs-Ldpi9wPWzWnz1ico/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS82/MmJkYzkzZTljY2Nm/YjQzZTE1NTEwNGMv/NjY2MzcwNmZhYzcx/Njc3MGMzMWZmMDkz/X1ZpbnNtb2tlJTIw/U2FuamklMjBwZnAl/MjBmb3IlMjB0aWt0/b2slMjAoMTMpLnBu/Zw" },
-      { "name": "Vedant", "post": "Technical Member", "imageUrl": "/team/TECHNICAL/Vedant[TM].png" },
-      { "name": "Harsh", "post": "Technical Member", "imageUrl": "/team/TECHNICAL/Harsh[TM].png" }
+      { "name": "Vedant Yadav", "post": "Technical Member", "imageUrl": "/team/TECHNICAL/Vedant[TM].png" },
+      { "name": "Harsh Alkar", "post": "Technical Member", "imageUrl": "/team/TECHNICAL/Harsh[TM].png" }
     ]
   },
   {
@@ -56,20 +56,20 @@
     "leader": { "name": "Aniket Paste", "post": "Creativity Head", "imageUrl": "/team/CREATIVITY/Aniket[CH].png" },
     "members": [
       { "name": "Dhruv Dodia", "post": "Creativity Member", "imageUrl": "/team/CREATIVITY/Dhruv[CM].png" },
-      { "name": "Khushi", "post": "Creativity Member", "imageUrl": "/team/CREATIVITY/Khushi[CM].png" },
-      { "name": "KumariPriya", "post": "Creativity Member", "imageUrl": "/team/CREATIVITY/KumariPriya[CM].png" },
+      { "name": "Khushi Jain", "post": "Creativity Member", "imageUrl": "/team/CREATIVITY/Khushi[CM].png" },
+      { "name": "KumariPriya Prasad", "post": "Creativity Member", "imageUrl": "/team/CREATIVITY/KumariPriya[CM].png" },
       { "name": "Siddhi Bhuvad", "post": "Creativity Member", "imageUrl": "/team/CREATIVITY/Siddhi[CM].png" },
-      { "name": "Ritisha", "post": "Creativity Member", "imageUrl": "/team/CREATIVITY/Ritisha[CM].png" },
-      { "name": "Sanika", "post": "Creativity Member", "imageUrl": "/team/CREATIVITY/Sanika[CM].png" },
-      { "name": "Suhani", "post": "Creativity Member", "imageUrl": "/team/CREATIVITY/Suhani[CM].png" }
+      { "name": "Ritisha Shinde", "post": "Creativity Member", "imageUrl": "/team/CREATIVITY/Ritisha[CM].png" },
+      { "name": "Sanika Shinde", "post": "Creativity Member", "imageUrl": "/team/CREATIVITY/Sanika[CM].png" },
+      { "name": "Suhani Arjun", "post": "Creativity Member", "imageUrl": "/team/CREATIVITY/Suhani[CM].png" }
     ]
   },
   {
     "title": "PUBLICITY Team",
-    "leader": { "name": "Prachi", "post": "Publicity Head", "imageUrl": "/team/PUBLICITY/Prachi[PH].png" },
+    "leader": { "name": "Prachi Pokhare", "post": "Publicity Head", "imageUrl": "/team/PUBLICITY/Prachi[PH].png" },
     "members": [
-      { "name": "Sayali", "post": "Publicity Member", "imageUrl": "/team/PUBLICITY/Sayali[PM].png" },
-      { "name": "Tanvee", "post": "Publicity Member", "imageUrl": "/team/PUBLICITY/Tanvee[PM].png" }
+      { "name": "Sayali Nimbalkar", "post": "Publicity Member", "imageUrl": "/team/PUBLICITY/Sayali[PM].png" },
+      { "name": "Tanvee Waikar", "post": "Publicity Member", "imageUrl": "/team/PUBLICITY/Tanvee[PM].png" }
     ]
   }
 ]

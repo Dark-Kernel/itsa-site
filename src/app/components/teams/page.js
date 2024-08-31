@@ -55,9 +55,8 @@ const TeamGrid = ({ teams }) => {
   return (
     <div className="min-h-screen bg-gray-900 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-4xl lg:text-5xl font-extrabold text-white text-center mb-12 lg:mb-16">
-          Our Teams
-        </h1>
+        <h1 className="text-4xl lg:text-5xl font-extrabold text-white text-center mb-12 lg:mb-16">ITSA Team 2024-25</h1>
+        <h2 className="text-4xl lg:text-5xl font-extrabold text-white text-center mb-12 lg:mb-16">Meet our Team</h2>
         {teams.map((team, index) => (
           <TeamSection key={index} {...team} />
         ))}
