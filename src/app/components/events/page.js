@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { ChevronDown, Instagram } from "lucide-react";
 
 const EventCard = ({ image, title, date, time, instagramLink }) => (
-  <div className="bg-backround border-2 border-solid border-color7 text-foreground rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-xl flex flex-col h-full">
+  <div className="bg-white border-2 border-solid border-color7 text-foreground rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-xl flex flex-col h-full">
     <img src={image} alt={title} className="w-full h-50 object-cover" />
     <div className="p-4 flex flex-col flex-grow">
       <h3 className="text-xl font-semibold mb-2 text-gray-600 text-foreground">{title}</h3>
