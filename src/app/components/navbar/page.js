@@ -131,7 +131,9 @@ export const NavBar = () => {
               </div> */}
               <HashLink to="#connect">
                 <button className="font-bold text-white border border-white px-[34px] py-[18px] text-lg ml-[18px] relative bg-transparent transition-all duration-300 ease-in-out overflow-hidden group">
-                  <span className="relative z-10 group-hover:text-black transition-all duration-300 ease-in-out">Let's Connect</span>
+                  <span className="relative z-10 group-hover:text-black transition-all duration-300 ease-in-out">
+                    Let's Connect
+                  </span>
                   <div className="absolute inset-0 bg-white w-0 transition-all duration-300 ease-in-out group-hover:w-full"></div>
                 </button>
               </HashLink>
@@ -187,7 +189,7 @@ export const NavBar = () => {
             </button>
             <div className="flex flex-col space-y-4">
               <a
-                href="#home"
+                href="/"
                 className={`text-white text-lg font-normal ${
                   activeLink === "home" ? "opacity-100" : "opacity-75"
                 }`}
@@ -196,7 +198,7 @@ export const NavBar = () => {
                 Home
               </a>
               <a
-                href="#team"
+                href="/teams"
                 className={`text-white text-lg font-normal ${
                   activeLink === "team" ? "opacity-100" : "opacity-75"
                 }`}
@@ -205,7 +207,7 @@ export const NavBar = () => {
                 Team
               </a>
               <a
-                href="#events"
+                href="/events"
                 className={`text-white text-lg font-normal ${
                   activeLink === "events" ? "opacity-100" : "opacity-75"
                 }`}
@@ -214,7 +216,7 @@ export const NavBar = () => {
                 Events
               </a>
               <a
-                href="#about"
+                href="/about"
                 className={`text-white text-lg font-normal ${
                   activeLink === "about" ? "opacity-100" : "opacity-75"
                 }`}
