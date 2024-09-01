@@ -6,7 +6,7 @@ const EventCard = ({ image, title, date, instagramLink }) => (
   <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-xl">
     <img src={image} alt={title} className="w-full h-50 object-cover" />
     <div className="p-4">
-      <h3 className="text-xl font-semibold mb-2">{title}</h3>
+      <h3 className="text-xl font-semibold mb-2 text-gray-600">{title}</h3>
       <div className="flex justify-between items-center mt-2">
         <p className="text-gray-600">{date}</p>
         <div className="flex space-x-2">
@@ -35,7 +35,7 @@ const EventsPage = () => {
   useEffect(() => {
     const fetchEvents = async () => {
       try {
-        const response = await fetch("/events.json");
+        const response = await fetch("/data/events.json");
         const data = await response.json();
         setEvents(data.events);
       } catch (error) {
@@ -76,17 +76,17 @@ const EventsPage = () => {
     <div className="min-h-screen bg-transparent p-8">
       <div className="max-w-6xl mx-auto">
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-4xl font-bold text-white">Events Page</h1>
+          <h1 className="text-4xl font-bold text-white">ITSA 2024-25 : Events</h1>
           <div className="flex space-x-4">
             <button
-              className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300 transition"
+              className="px-4 py-2 bg-gray-200 text-gray-600 rounded hover:bg-gray-300 transition"
               onClick={() => setSelectedMonth("all")}
             >
               All
             </button>
             <div className="relative">
               <select
-                className="appearance-none bg-gray-200 rounded px-4 py-2 pr-8 hover:bg-gray-300 transition"
+                className="appearance-none bg-gray-200 text-gray-600 rounded px-4 py-2 pr-8 hover:bg-gray-300 transition"
                 value={selectedMonth}
                 onChange={(e) => setSelectedMonth(e.target.value)}
               >

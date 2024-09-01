@@ -84,7 +84,7 @@ const App = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("/team-data.json")
+    fetch("/data/team-data.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch team data");
