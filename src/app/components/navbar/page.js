@@ -1,6 +1,7 @@
+"use client"
 import React, { useState, useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -38,25 +39,25 @@ export const NavBar = () => {
         }`}
       >
         <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center border-2 border-solid border-white">
             <div className="flex items-center">
               <img
-                src="/img/logo.svg"
+                src="/img/itsa.png"
                 alt="Logo"
-                className="w-[9%] min-w-[30px]"
+                className="h-12 w-12 md:h-16 md:w-16"
               />
-              <div className="ml-2 flex flex-col justify-center h-full">
+              <div className="ml-2 flex font-sans flex-col justify-center h-full">
                 <span className="text-white text-lg font-bold leading-tight">
                   Information Technology
                 </span>
                 <span className="text-white text-lg font-bold leading-tight">
-                  Student Association 2024-25
+                  Student Association
                 </span>
               </div>
             </div>
             <div className="hidden md:flex items-center">
               <a
-                href="#home"
+                href="/"
                 className={`text-white text-lg font-normal opacity-75 hover:opacity-100 px-6 ${
                   activeLink === "home" ? "opacity-100" : ""
                 }`}
@@ -65,7 +66,7 @@ export const NavBar = () => {
                 Home
               </a>
               <a
-                href="#team"
+                href="/teams"
                 className={`text-white text-lg font-normal opacity-75 hover:opacity-100 px-6 ${
                   activeLink === "team" ? "opacity-100" : ""
                 }`}
@@ -74,7 +75,7 @@ export const NavBar = () => {
                 Team
               </a>
               <a
-                href="#events"
+                href="/events"
                 className={`text-white text-lg font-normal opacity-75 hover:opacity-100 px-6 ${
                   activeLink === "events" ? "opacity-100" : ""
                 }`}
@@ -83,7 +84,7 @@ export const NavBar = () => {
                 Events
               </a>
               <a
-                href="#about"
+                href="/about"
                 className={`text-white text-lg font-normal opacity-75 hover:opacity-100 px-6 ${
                   activeLink === "about" ? "opacity-100" : ""
                 }`}
@@ -130,7 +131,7 @@ export const NavBar = () => {
               </div> */}
               <HashLink to="#connect">
                 <button className="font-bold text-white border border-white px-[34px] py-[18px] text-lg ml-[18px] relative bg-transparent transition-all duration-300 ease-in-out overflow-hidden group">
-                  <span className="relative z-10">Let's Connect</span>
+                  <span className="relative z-10 group-hover:text-black transition-all duration-300 ease-in-out">Let's Connect</span>
                   <div className="absolute inset-0 bg-white w-0 transition-all duration-300 ease-in-out group-hover:w-full"></div>
                 </button>
               </HashLink>

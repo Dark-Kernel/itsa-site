@@ -46,7 +46,7 @@ export const Banner = () => {
   }
 
   return (
-    <section className="pt-[260px] pb-[100px] bg-[url('/img/banner-bg.png')] bg-top bg-cover bg-no-repeat" id="home">
+    <section className="pt-[260px] pb-[100px] bg-[url('/img/banner-bg-extended-vertical.png')] bg-top bg-cover bg-no-repeat" id="home">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap items-center">
           <div className="w-full md:w-1/2 xl:w-7/12">

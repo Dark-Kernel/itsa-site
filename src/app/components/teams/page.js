@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 
 const MemberCard = ({ name, post, imageUrl }) => (
-  <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 w-full h-full flex flex-col">
+  <div className="bg-background text-foreground rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 w-full h-full flex flex-col">
     <div className="p-4 lg:p-6 flex-grow flex flex-col justify-between">
       <div>
         <img
@@ -62,8 +62,8 @@ const TeamSection = ({ title, leader, members }) => {
 
 const TeamGrid = ({ teams }) => {
   return (
-    <div className="min-h-screen bg-gray-900 py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+    <div className="min-h-screen bg-gray-900 py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8 pt-[260px] pb-[100px] bg-[url('/img/banner-bg-extended-vertical.png')]">
+      <div className="max-w-7xl mx-auto pt-[5rem]">
         <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-extrabold text-white text-center mb-6 sm:mb-8 lg:mb-10">
           ITSA Team 2024-25
         </h1>
