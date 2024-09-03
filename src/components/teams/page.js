@@ -1,5 +1,7 @@
+// app/team/page.jsx
 "use client";
-import React, { useState, useEffect } from "react";
+
+import { useState, useEffect } from "react";
 
 const MemberCard = ({ name, post, imageUrl }) => (
   <div className="bg-background text-foreground rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 w-full h-full flex flex-col">
@@ -78,27 +80,28 @@ const TeamGrid = ({ teams }) => {
   );
 };
 
-const App = () => {
+const TeamPage = () => {
   const [teams, setTeams] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("/data/team-data.json")
-      .then((response) => {
+    const fetchTeams = async () => {
+      try {
+        const response = await fetch("/data/team-data.json");
         if (!response.ok) {
           throw new Error("Failed to fetch team data");
         }
-        return response.json();
-      })
-      .then((data) => {
+        const data = await response.json();
         setTeams(data);
         setLoading(false);
-      })
-      .catch((error) => {
+      } catch (error) {
         setError(error.message);
         setLoading(false);
-      });
+      }
+    };
+
+    fetchTeams();
   }, []);
 
   if (loading) {
@@ -112,4 +115,4 @@ const App = () => {
   return <TeamGrid teams={teams} />;
 };
 
-export default App;
+export default TeamPage;

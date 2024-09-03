@@ -1,7 +1,8 @@
+"use client";
 import { useState, useEffect } from "react";
 import { Col, Row, Alert } from "react-bootstrap";
 
-export const Newsletter = ({ status, message, onValidated }) => {
+const Newsletter = ({ status, message, onValidated }) => {
   const [email, setEmail] = useState('');
 
   useEffect(() => {
@@ -44,3 +45,5 @@ export const Newsletter = ({ status, message, onValidated }) => {
       </Col>
   )
 }
+
+export default Newsletter;

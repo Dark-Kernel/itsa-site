@@ -5,7 +5,7 @@
 // import navIcon2 from "../../../assets/img/nav-icon2.svg";
 // import navIcon3 from "../../../assets/img/nav-icon3.svg";
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <footer className="pb-[25px] pt-[25px] bg-[url('/img/footer-bg.png')] bg-center bg-cover bg-no-repeat border-t-2 border-white">
       <div className="container mx-auto px-4">
@@ -43,3 +43,5 @@ export const Footer = () => {
     </footer>
   );
 }
+
+export default Footer;
